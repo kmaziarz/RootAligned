@@ -1,10 +1,11 @@
 [project]
 name = "syntheseus-root-aligned"
-version = "0.1.0"
+version = "0.2.0"
 description = "Fork of RootAligned for use in the syntheseus library"
 dependencies = [
   "OpenNMT-py==2.2.0",
-  "textdistance==4.6.0"
+  "textdistance==4.6.0",
+  "sentencepiece==0.2.0"
 ]
 
 [project.urls]
